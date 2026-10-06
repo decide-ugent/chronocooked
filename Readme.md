@@ -1,8 +1,8 @@
-# ChronoCooked
+# Chronocooked
 
 ## Description
 
-ChronoCooked is a Gymnasium based benchmark environment for studying interval timing in reinforcement learning (RL) agents. 
+Chronocooked is a Gymnasium based benchmark environment for studying interval timing in reinforcement learning (RL) agents. 
 Inspired by the Overcooked game, it uses cooking-themed scenarios that operationalize well-established psychology paradigms within an RL environment. 
 
 For more details refer the Chronocooked paper: https://arxiv.org/abs/2608.16666 .
@@ -12,7 +12,7 @@ This repository contains the code for the RL environment tasks, evaluation metri
 
 ## Task Variants
 
-ChronoCooked contains two core tasks: Fixed-Interval (FI) Timing and Temporal Bisection. Each has extensions that introduce additional timing requirements while retaining the basic structure of the core task.
+Chronocooked contains two core tasks: Fixed-Interval (FI) Timing and Temporal Bisection. Each has extensions that introduce additional timing requirements while retaining the basic structure of the core task.
 
 ### **Fixed-Interval (FI) Timing**: 
 Basic soup delivery with a fixed interval.
@@ -97,7 +97,7 @@ env.reset(seed=...) controls agent start position
 
 ## Installation
 
-ChronoCooked experiments were conducted using **Python 3.10**.
+Chronocooked experiments were conducted using **Python 3.10**.
 
 The following package versions were used for the experiments reported in the paper:
 
@@ -119,7 +119,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-ChronoCooked does not require a GPU and can be run on CPU-only systems. A compatible GPU can be used to accelerate training.
+Chronocooked does not require a GPU and can be run on CPU-only systems. A compatible GPU can be used to accelerate training.
 
 ## Citation
 You can cite Chronocooked using our related paper: https://arxiv.org/abs/2608.16666
