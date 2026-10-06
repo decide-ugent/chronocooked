@@ -17,7 +17,7 @@ ChronoCooked contains two core tasks: Fixed-Interval (FI) Timing and Temporal Bi
 ### **Fixed-Interval (FI) Timing**: 
 Basic soup delivery with a fixed interval.
 
- <img src="agent_trajectories_gif/chronocooked_trajectory_FI.gif" width="400"/>
+ <img src="singleagent/agent_trajectories_gif/chronocooked_trajectory_FI.gif" width="400"/>
 
   * Grid: 5 × 3
   * Oven states: `on`, `off`
@@ -31,7 +31,7 @@ Basic soup delivery with a fixed interval.
 ### **Temporal Bisection**: 
 Soup delivery based on temporal categorization using two anchors and two delivery counters.
 
-<img src="agent_trajectories_gif/chronocooked_trajectory_bisection.gif" width="400"/>
+<img src="singleagent/agent_trajectories_gif/chronocooked_trajectory_bisection.gif" width="400"/>
 
   * Grid: 4 × 3
   * Oven states: `on`, `off`, `ready`
