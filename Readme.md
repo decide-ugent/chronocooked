@@ -2,14 +2,13 @@
 
 ## Description
 
-Chronocooked is a Gymnasium based benchmark environment for studying interval timing in reinforcement learning (RL) agents. 
+Chronocooked is a reinforcement learning (RL) environment for studying interval timing in RL agents. 
 Inspired by the Overcooked game, it uses cooking-themed scenarios that operationalize well-established psychology paradigms within an RL environment. 
 
 For more details refer the Chronocooked paper: https://arxiv.org/abs/2608.16666 .
 
-This repository contains the code for the RL environment tasks, evaluation metrics, baseline models, and experiments reported in the paper.
-
-
+This repository provides the complete framework for running Chronocooked experiments, including the tasks,
+evaluation metrics, baseline RL models, and training scripts. The tasks are implemented as Gymnasium environments. The baseline models include a non-recurrent CNN-MLP, a recurrent CNN-LSTM-MLP, and a biologically plausible CNN-CTRNN-MLP model. They are trained using Proximal Policy Optimization (PPO) implemented with Stable-Baselines3 (SB3) and Stable-Baselines3 Contrib (SB3-Contrib).
 ## Task Variants
 
 Chronocooked contains two core tasks: Fixed-Interval (FI) Timing and Temporal Bisection. Each has extensions that introduce additional timing requirements while retaining the basic structure of the core task.
